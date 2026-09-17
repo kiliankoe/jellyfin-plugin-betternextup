@@ -1,0 +1,17 @@
+name: "Better Next Up"
+guid: "5a1c0b4e-3a2f-4f7b-9e0c-2d6b8f1c7a11"
+version: "0.1.0.0"
+targetAbi: "12.0.0.0"
+framework: "net10.0"
+overview: "Orders Next Up the way Plex orders On Deck: shows with newly added episodes move to the front."
+description: >
+  Replaces the Next Up ordering. A show is ranked by the newer of the date you last
+  watched it and the date its next episode was added to the library, so a show you
+  watched months ago reappears at the front as soon as a new episode lands. For Infuse, which
+  never asks for Next Up, the plugin merges Next Up into Continue Watching.
+category: "General"
+owner: "kiliankoe"
+artifacts:
+- "Jellyfin.Plugin.BetterNextUp.dll"
+changelog: >
+  Initial release.

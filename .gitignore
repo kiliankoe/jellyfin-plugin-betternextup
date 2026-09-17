@@ -1,0 +1,8 @@
+bin/
+obj/
+artifacts/
+.direnv/
+result
+*.user
+.vs/
+.idea/
