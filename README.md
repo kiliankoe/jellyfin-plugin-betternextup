@@ -2,6 +2,8 @@
 
 A Jellyfin plugin that orders the Next Up section the way Plex orders On Deck.
 
+This project is very much *vibecoded*, I know little about the inner workings of Jellyfin or dotnet for that matter. It works on my machine™, ymmv. Feel free to report any issues if you do try this out however.
+
 Jellyfin ranks every show in Next Up by the date you last watched an episode of it. A show you paused months ago therefore sits at the back, even when a new episode arrived yesterday. Plex ranks a show by its latest activity, which is either that last watch or a new episode being added to the library. This plugin brings the Plex ordering to Jellyfin: a show jumps to the front whenever its next episode is newer than your last watch of it.
 
 The "Max days in Next Up" client setting keeps working, but it now applies to that latest activity instead of the last watch. A show you stopped watching two years ago reappears when a new episode lands and drops out again once that episode has aged past the limit.
